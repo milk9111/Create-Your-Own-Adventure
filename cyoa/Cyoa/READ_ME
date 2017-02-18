@@ -12,4 +12,4 @@ d *This is the game state signified with either a "d" for decision or a "c" for 
 There once was a fox...* *This is the dialog for the Situation, this can be written in a paragraph format as long as the very end of it is followed by a "*" to mark the end.*
 3 *number of buttons for the situation*
 Look here.../Move there.../ *These are the options for the situation, be sure to follow each option with a "/" to signify the end of that option.*
-
+look/move/ *These are the names of the linking situation text files. They do not have to exist for the situation to be created, but they do need to exist in order for the buttons to function.*
