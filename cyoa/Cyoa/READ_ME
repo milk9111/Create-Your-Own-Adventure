@@ -1,0 +1,15 @@
+** READ ME **
+This application is designed to work with any situations given to it.
+
+To add custom situations, simply create the required text documents and
+put them within the "situations" folder within the src folder. After deleting
+or moving the previous ones. Be sure to always the label the initial Situation
+as Start.
+
+When making your own Situations, use this format:
+
+d *This is the game state signified with either a "d" for decision or a "c" for combat.*
+There once was a fox...* *This is the dialog for the Situation, this can be written in a paragraph format as long as the very end of it is followed by a "*" to mark the end.*
+3 *number of buttons for the situation*
+Look here.../Move there.../ *These are the options for the situation, be sure to follow each option with a "/" to signify the end of that option.*
+
